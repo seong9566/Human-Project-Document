@@ -138,16 +138,4 @@ ALTER TABLE Apply ADD FOREIGN KEY (resumes_id) REFERENCES resumes (resumes_id);
 ALTER TABLE Apply ADD FOREIGN KEY (company_board_id) REFERENCES company_board (company_board_id);
 
 ```
-``` 10월 1일 회의내용
-1. 검색 기능 추가 필요 - 옵션 체크 박스로 정규직,비정규직/ 신입, 경력
-2. 웹 페이지 갯수를 최대한 줄임 -> 메인 페이지 기능에 최대한 추가
 
-<기업 로그인 했을경우 기능>
-1. 기본 기능 - Header, footer
-2. 랜덤한 이력서가 리스트 형식으로 보임 
-3. header에서 회사 정보 입력 클릭 -> 회사의 구인 공고 작성 (구인공고 작성은 선택사항)
-4. 관심 분야 이력서만 골라서 보기 가능 -> 옵셔널 방식으로 선택
-5. 이력서_detail 페이지에서 좋아요, 구인하기 기능 추가
-6. 구인하기 기능을 누르면 이력서 작성한 사람에게 알람기능(push)로 전달
-
-```
